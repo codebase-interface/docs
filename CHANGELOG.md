@@ -47,6 +47,7 @@
 
 ### 💼 Other
 
+- Merge branch 'main' of https://github.com/codebase-interface/docs _(2025-11-15 13:59:18)_
 - Enhance documentation with comprehensive benefits, real-world examples, and tooling guidance
 
 - Revamped benefits section to highlight transformative impacts of Codebase Interface principles for consumers, contributors, operators, AI agents, and build agents.
@@ -117,6 +118,8 @@ Add step to copy CNAME file before deployment. _(2025-10-16 15:04:55)_
 
 ### 📚 Documentation
 
+- Update changelog [skip ci] _(2025-11-15 13:43:43)_
+- Update terminology from "users" to "consumers" for consistency across documentation _(2025-11-15 13:58:55)_
 - Update changelog [skip ci] _(2025-10-26 20:23:46)_
 - Update changelog [skip ci] _(2025-10-26 20:22:27)_
 - Update changelog [skip ci] _(2025-10-26 20:21:28)_
