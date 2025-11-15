@@ -1,8 +1,8 @@
 site_name: Codebase Interface
 site_description: A documented set of principles that aim to promote the ease of use of codebases across languages and frameworks
-site_url: https://codebaseinterface.org
-repo_url: https://github.com/codebase-interface/codebaseinterface
-repo_name: codebase-interface/codebaseinterface
+site_url: https://codebase-interface.github.io/docs/
+repo_url: https://github.com/codebase-interface/docs
+repo_name: codebase-interface/docs
 edit_uri: edit/main/docs/
 
 theme:
