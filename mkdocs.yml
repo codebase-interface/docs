@@ -48,6 +48,9 @@ plugins:
       type: date
   - mermaid2
 
+extra_files:
+  - .nojekyll
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

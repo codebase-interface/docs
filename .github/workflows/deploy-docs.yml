@@ -26,10 +26,12 @@ jobs:
         run: |
           pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions mkdocs-mermaid2-plugin
 
-      - name: Build and deploy to GitHub Pages
+      - name: Configure git for deployment
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          mkdocs gh-deploy --force --clean
+
+      - name: Build and deploy to gh-pages branch
+        run: mkdocs gh-deploy --force --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
