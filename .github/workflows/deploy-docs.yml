@@ -1,4 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
+name: build-mkdocs-gh-pages-branch
 
 on:
   push:
@@ -15,23 +15,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions mkdocs-mermaid2-plugin
+        run:  |     
+          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions
 
-      - name: Configure git for deployment
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      # - name: Generate changelog
+      #   run: git-cliff -c cliff.toml
 
-      - name: Build and deploy to gh-pages branch
-        run: mkdocs gh-deploy --force --clean
+      - name: Build and Deploy
+        run: mkdocs gh-deploy --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
