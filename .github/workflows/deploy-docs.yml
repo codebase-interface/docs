@@ -23,12 +23,15 @@ jobs:
 
       - name: Install dependencies
         run:  |     
-          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions
+          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions mkdocs-mermaid2-plugin
 
       # - name: Generate changelog
       #   run: git-cliff -c cliff.toml
 
       - name: Build and Deploy
-        run: mkdocs gh-deploy --force
+        run: |
+          mkdocs build
+          touch site/.nojekyll
+          mkdocs gh-deploy --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
