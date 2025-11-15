@@ -66,7 +66,7 @@ Connect with like-minded developers passionate about great developer experiences
 </div>
 <!-- markdownlint-enable MD033 -->
 
-### 🎨 **Design & User Experience**
+### 🎨 **Design & Consumer Experience**
 
 <!-- markdownlint-disable MD033 -->
 <div style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">

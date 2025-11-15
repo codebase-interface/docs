@@ -2,7 +2,7 @@
 
 ## Readme
 
-- **Primary Audience**: Users
+- **Primary Audience**: Consumers
 - **Secondary Audience**: Contributors, Operators
 
 ## Contributing
@@ -17,7 +17,7 @@
 
 ## Changelog
 
-- **Primary Audience**: Users
+- **Primary Audience**: Consumers
 - **Secondary Audience**: Contributors, Operators
 
 ## Language

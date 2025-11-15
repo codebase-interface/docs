@@ -6,9 +6,9 @@ Every successful codebase serves **multiple audiences** with distinct needs, goa
 
 ---
 
-## 👤 Service Users (Consumers)
+## 👤 Service Consumers
 
-> **🎯 Who they are:** End users who want to understand and use what your project offers
+> **🎯 Who they are:** End consumers who want to understand and use what your project offers
 > 
 > **💭 What they're thinking:** *"What does this do? How do I get started? Is this reliable?"*
 
@@ -26,7 +26,11 @@ Every successful codebase serves **multiple audiences** with distinct needs, goa
 - Installation/setup instructions
 - Usage documentation and tutorials
 
-**🌟 Success looks like:** Users can understand your project and get started quickly.
+**🌟 Success looks like:** Consumers can understand your project and get started quickly.
+
+---
+
+## 👥 Contributors
 
 ---
 
@@ -130,8 +134,8 @@ Every successful codebase serves **multiple audiences** with distinct needs, goa
 
 These audiences don't exist in isolation - they interact and overlap:
 
-- **Users** often become **Contributors** when they want new features
-- **Contributors** need to understand **Operator** concerns for production-ready code
+- **Consumers** often become **Contributors** when they want new features
+- **Contributors** often become **Operators** when deploying their work
 - **AI Agents** assist all other audiences in their tasks
 - **Build Agents** validate the work of **Contributors** before **Operators** deploy
 

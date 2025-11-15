@@ -4,14 +4,11 @@
 
 > 🌟 **Imagine a world** where every developer, operator, AI agent, and build system knows exactly how to interact with your codebase. Where onboarding takes minutes, not days. Where your code is as welcoming as your team.
 
-The **Codebase Interface Initiative** is a set of principles and practices that transforms how we think about codebases. Instead of treating them as mere collections of files, we treat them as **products with multiple users** - each deserving a great experience.
+The **Codebase Interface Initiative** is a set of principles and practices that transforms how we think about codebases. Instead of treating them as mere collections of files, we treat them as **products with multiple consumers** - each deserving a great experience.
 
-## 🎯 What Makes This Special?
+## 🚀 Your Learning Journey
 
-We've identified **5 distinct audiences** that interact with every codebase:
-
-### 👤 Service Users
-People who use your product
+### 👤 Service Consumers
 
 ### 🧑‍💻 Contributors
 Developers who improve your code

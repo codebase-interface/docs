@@ -42,7 +42,7 @@ Keep it simple but complete. Every file has a clear purpose, and new developers 
 ??? example "📁 **Complete Directory Structure**"
     ```txt
     my-awesome-service/
-    ├── 📚 README.md                   # 👤 Users: What this service does & how to use it
+    ├── 📚 README.md                   # 👤 Consumers: What this service does & how to use it
     ├── 🤝 CONTRIBUTING.md             # 🧑‍💻 Contributors: How to help improve this service  
     ├── 🤖 AGENTS.md                   # 🤖 AI: Context for AI-assisted development
     ├── 🚀 RUNBOOK.md                  # 🛠️ Operators: How to deploy & maintain this service
@@ -189,7 +189,7 @@ Built for maximum transparency and community engagement. Every audience has clea
 
     | For | Document | Purpose |
     |-----|----------|---------|
-    | 👤 **Users** | [📚 Docs](docs/README.md) | Learn the principles and see examples |
+    | 👤 **Consumers** | [📚 Docs](docs/README.md) | Learn the principles and see examples |
     | 🧑‍💻 **Contributors** | [🤝 Contributing](CONTRIBUTING.md) | Understand how to help |
     | 🛠️ **Operators** | [🚀 Runbook](RUNBOOK.md) | Deploy and maintain |
     | 🤖 **AI Agents** | [🤖 Agents](AGENTS.md) | Context for AI assistance |
@@ -266,7 +266,7 @@ Designed for complex, business-critical applications with multiple teams and sop
     │   ├── 💰 payment-service/        # Payment processing domain
     │   └── 📧 notification-service/   # Communication domain
     │
-    ├── 🎭 experiences/                # 🎨 User Interfaces & Client Apps
+    ├── 🎭 experiences/                # 🎨 Consumer Interfaces & Client Apps
     │   ├── 📖 README.md               # UI/UX philosophy and standards
     │   ├── 🌐 web-app/                # React/Vue/Angular web application
     │   ├── 📱 mobile-app/             # React Native/Flutter mobile app
@@ -304,13 +304,13 @@ Designed for complex, business-critical applications with multiple teams and sop
 
     **Architecture:** Event-driven microservices with domain-driven design principles.
 
-    **Scale:** Serving 10M+ users across 50+ countries with 99.9% uptime.
+    **Scale:** Serving 10M+ consumers across 50+ countries with 99.9% uptime.
 
     ## 🚀 Quick Start by Role
 
     <table>
     <tr>
-    <td><strong>👤 Business Users</strong><br>
+    <td><strong>👤 Business Consumers</strong><br>
     <a href="#business-value">View Business Value</a><br>
     <a href="experiences/README.md">Access Applications</a>
     </td>
@@ -350,7 +350,7 @@ Designed for complex, business-critical applications with multiple teams and sop
         WEB --> API
         MOBILE --> API
         API --> ORDER
-        API --> USER
+        API --> CONSUMER
         API --> PAYMENT
         ORDER --> STREAM
         STREAM --> WAREHOUSE
@@ -361,7 +361,7 @@ Designed for complex, business-critical applications with multiple teams and sop
     | Domain | Purpose | Team | Documentation |
     |---------|---------|------|---------------|
     | 🧠 **[Behaviour](behaviour/README.md)** | Business logic & domain services | Backend Teams | Domain guides, APIs |
-    | 🎭 **[Experiences](experiences/README.md)** | User interfaces & interactions | Frontend Teams | UI guides, components |
+    | 🎭 **[Experiences](experiences/README.md)** | Consumer interfaces & interactions | Frontend Teams | UI guides, components |
     | 📡 **[Publication](publication/README.md)** | Data integration & events | Platform Team | Data flows, schemas |
     | 📊 **[Outcomes](outcomes/README.md)** | Analytics & intelligence | Data Team | Reports, insights |
     | 🎨 **[Design](design/README.md)** | Architecture & decisions | Architecture Team | ADRs, contracts |
@@ -371,7 +371,7 @@ Designed for complex, business-critical applications with multiple teams and sop
     - 🚀 **50% faster** feature delivery through domain separation
     - 📈 **300% increase** in developer productivity  
     - 🛡️ **99.9% uptime** with robust monitoring and automation
-    - 🌍 **Global scale** serving millions of users seamlessly
+    - 🌍 **Global scale** serving millions of consumers seamlessly
 
     ## 🛠️ Development Workflow
 
