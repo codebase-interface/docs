@@ -33,6 +33,7 @@
 
 ### 🐛 Bug Fixes
 
+- Correct GitHub Pages deployment for MkDocs _(2025-11-15 14:53:50)_
 - Remove redundant overview section from README _(2025-10-19 11:51:42)_
 - Add mkdocs-mermaid2-plugin installation to setup and deploy workflows _(2025-10-19 11:48:07)_
 - Update Taskfile and mkdocs configuration for improved setup and mermaid support _(2025-10-19 11:43:17)_
@@ -118,6 +119,7 @@ Add step to copy CNAME file before deployment. _(2025-10-16 15:04:55)_
 
 ### 📚 Documentation
 
+- Update changelog [skip ci] _(2025-11-15 14:50:03)_
 - Remove CNAME file as it is no longer needed _(2025-11-15 14:49:54)_
 - Update changelog [skip ci] _(2025-11-15 14:16:01)_
 - Enhance interfaces documentation with detailed audience-specific sections and actionable tips _(2025-11-15 14:15:51)_
