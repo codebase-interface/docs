@@ -118,6 +118,8 @@ Add step to copy CNAME file before deployment. _(2025-10-16 15:04:55)_
 
 ### 📚 Documentation
 
+- Remove CNAME file as it is no longer needed _(2025-11-15 14:49:54)_
+- Update changelog [skip ci] _(2025-11-15 14:16:01)_
 - Enhance interfaces documentation with detailed audience-specific sections and actionable tips _(2025-11-15 14:15:51)_
 - Update changelog [skip ci] _(2025-11-15 13:59:33)_
 - Update changelog [skip ci] _(2025-11-15 13:43:43)_
