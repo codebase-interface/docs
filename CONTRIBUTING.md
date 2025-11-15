@@ -8,9 +8,6 @@ This documentation will help you contribute to this codebase.
 
 ```bash
 mkdir -p ~/.local/bin && sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
-```
-
-```bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 
